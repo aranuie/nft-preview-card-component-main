@@ -54,6 +54,7 @@ p {
     padding-left: 8em;
 }
 
+
 hr {
     border-top: 1px;
     color: hsl(215, 32%, 27%);
@@ -148,7 +149,7 @@ a:active {
 
 /*- Mobile: 375px
 - Desktop: 1440px*/
-@media (max-width: 499px) {
+@media  (max-width: 375px) {
     body {
         width: 95%;
         margin: 0 auto 1rem;
@@ -158,6 +159,18 @@ a:active {
     }
     .container .main-image div {
         height: 84%;
+    }
+}
+@media (min-width: 376px) and (max-width: 499px) {
+    body {
+        width: 100%;
+        margin: 0 auto 1rem;
+    }
+    .container .main-image div {
+        height: 87%;
+    }
+    .time {
+        padding-left: 30%;
     }
 }
 
