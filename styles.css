@@ -156,6 +156,9 @@ a:active {
     .time {
         padding-left: 2em;
     }
+    .container .main-image div {
+        height: 84%;
+    }
 }
 
 @media (min-width: 500px) {
