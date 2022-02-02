@@ -148,14 +148,13 @@ a:active {
 
 /*- Mobile: 375px
 - Desktop: 1440px*/
-
 @media (max-width: 499px) {
     body {
-        width: 100%;
+        width: 95%;
         margin: 0 auto 1rem;
     }
     .time {
-        padding-left: 4.5em;
+        padding-left: 2em;
     }
 }
 
@@ -164,4 +163,6 @@ a:active {
         width: 450px;
         margin: 0 auto 1rem;
     }
+
+    
 }
