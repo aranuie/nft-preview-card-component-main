@@ -149,26 +149,31 @@ a:active {
 
 /*- Mobile: 375px
 - Desktop: 1440px*/
-@media  (max-width: 375px) {
+@media (max-width: 375px) {
     body {
         width: 95%;
         margin: 0 auto 1rem;
     }
+
     .time {
         padding-left: 2em;
     }
+
     .container .main-image div {
         height: 84%;
     }
 }
+
 @media (min-width: 376px) and (max-width: 499px) {
     body {
         width: 100%;
         margin: 0 auto 1rem;
     }
+
     .container .main-image div {
         height: 87%;
     }
+
     .time {
         padding-left: 30%;
     }
@@ -180,5 +185,5 @@ a:active {
         margin: 0 auto 1rem;
     }
 
-    
+
 }
